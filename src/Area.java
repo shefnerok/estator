@@ -1,8 +1,6 @@
 
 public class Area {
 	private String area;
-	
-	
 
 	public Area(String area) {
 		super();
@@ -21,8 +19,5 @@ public class Area {
 	public String toString() {
 		return "Площа " + area + " ";
 	}
-	
-	
-	
 
 }

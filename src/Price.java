@@ -1,9 +1,6 @@
 
 public class Price {
 	private String price;
-	
-	
-	
 
 	public Price(String poverh) {
 		super();
@@ -22,8 +19,5 @@ public class Price {
 	public String toString() {
 		return "Ціна: " + price + " ";
 	}
-	
-	
-	
 
 }
