@@ -1,23 +1,23 @@
 
 public class Rooms {
-	private String rooms;
+	private String numberOfRooms;
 
-	public Rooms(String rooms) {
+	public Rooms(String numberOfRooms) {
 		super();
-		this.rooms = rooms;
+		this.numberOfRooms = numberOfRooms;
 	}
 
 	public String getRooms() {
-		return rooms;
+		return numberOfRooms;
 	}
 
-	public void setRooms(String rooms) {
-		this.rooms = rooms;
+	public void setRooms(String numberOfRooms) {
+		this.numberOfRooms = numberOfRooms;
 	}
 
 	@Override
 	public String toString() {
-		return "Кімнат: " + rooms + " ";
+		return "Кімнат: " + numberOfRooms + " ";
 	}
 
 }

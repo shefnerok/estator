@@ -1,23 +1,23 @@
 
 public class Price {
-	private String price;
+	private String apartmentPrice;
 
-	public Price(String poverh) {
+	public Price(String apartmentPrice) {
 		super();
-		this.price = poverh;
+		this.apartmentPrice = apartmentPrice;
 	}
 
-	public String getPoverh() {
-		return price;
+	public String getPrice() {
+		return apartmentPrice;
 	}
 
-	public void setPoverh(String poverh) {
-		this.price = poverh;
+	public void setPrice(String apartmentPrice) {
+		this.apartmentPrice = apartmentPrice;
 	}
 
 	@Override
 	public String toString() {
-		return "Ціна: " + price + " ";
+		return "Ціна: " + apartmentPrice + " ";
 	}
 
 }

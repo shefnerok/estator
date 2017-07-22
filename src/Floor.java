@@ -1,23 +1,23 @@
 
 public class Floor {
-	private String floor;
+	private String apartmentFloor;
 
 	public String getFloor() {
-		return floor;
+		return apartmentFloor;
 	}
 
-	public void setFloor(String floor) {
-		this.floor = floor;
+	public void setFloor(String apartmentFloor) {
+		this.apartmentFloor = apartmentFloor;
 	}
 
-	public Floor(String floor) {
+	public Floor(String apartmentFloor) {
 		super();
-		this.floor = floor;
+		this.apartmentFloor = apartmentFloor;
 	}
 
 	@Override
 	public String toString() {
-		return floor + " ";
+		return apartmentFloor + " ";
 	}
 
 }

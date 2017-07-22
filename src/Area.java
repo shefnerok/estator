@@ -1,23 +1,23 @@
 
 public class Area {
-	private String area;
+	private String apartmentArea;
 
-	public Area(String area) {
+	public Area(String apartmentArea) {
 		super();
-		this.area = area;
+		this.apartmentArea = apartmentArea;
 	}
 
 	public String getArea() {
-		return area;
+		return apartmentArea;
 	}
 
-	public void setArea(String area) {
-		this.area = area;
+	public void setArea(String apartmentArea) {
+		this.apartmentArea = apartmentArea;
 	}
 
 	@Override
 	public String toString() {
-		return "Площа " + area + " ";
+		return "Площа " + apartmentArea + " ";
 	}
 
 }
