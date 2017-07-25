@@ -36,18 +36,18 @@ public class Main {
 			}
 		}
 		// getting number of pages
-		Document pages = Jsoup.connect(properties.getProperty("website")).get();
-		Elements pageElements = pages.getElementsByAttributeValue("class", "page");
-		ArrayList<Object> pagesList = new ArrayList<>();
+		Document website = Jsoup.connect(properties.getProperty("website")).get();
+		Elements pageElements = website.getElementsByAttributeValue("class", "page");
+		ArrayList<Object> pages = new ArrayList<>();
 		pageElements.forEach(pagesElement -> {
 			Element pageElement = pagesElement.child(0);
 			String page = pageElement.text();
-			pagesList.add(page);
+			pages.add(page);
 
 		});
 
-		Object lastPageObject = pagesList.get(3);
-		int lastPageNumber = Integer.valueOf((String) lastPageObject);
+		Object lastPage = pages.get(3);
+		int lastPageNumber = Integer.valueOf((String) lastPage);
 
 		// Parsing
 		for (int page = 1; page <= lastPageNumber; page++) {
@@ -72,11 +72,11 @@ public class Main {
 
 			// CLASS APARTMENT
 			linkAndTitleElements.forEach(linkAndTitleElement -> {
-				Element linkAndTitleElement1 = linkAndTitleElement.child(0);
+				Element linksAndTitlesElements = linkAndTitleElement.child(0);
 				// link
-				String link = linkAndTitleElement1.attr("href");
+				String link = linksAndTitlesElements.attr("href");
 				// title
-				String title = linkAndTitleElement1.text();
+				String title = linksAndTitlesElements.text();
 
 				apartmentList.add(new Apartment(link, title));
 
@@ -93,9 +93,9 @@ public class Main {
 
 			// CLASS PRICE
 			priceElements.forEach(priceElement -> {
-				Element priceElement1 = priceElement.child(2);
+				Element pricesElement = priceElement.child(2);
 				// PRICE IN $
-				String price = priceElement1.text();
+				String price = pricesElement.text();
 
 				priceList.add(new Price(price));
 			});
