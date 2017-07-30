@@ -129,30 +129,30 @@ public class Main {
 				priceFloor.put(priceList.get(i), floorList.get(i));
 			}
 
-			// map1 to list
+			// linkTitleRooms to list
 			ArrayList<Object> linkTitleRoomsList = new ArrayList<Object>(linkTitleRooms.entrySet());
-			// map2 to list
+			// priceFloor to list
 			ArrayList<Object> priceFloorList = new ArrayList<Object>(priceFloor.entrySet());
 
 			Map<Object, Object> priceFloorArea = new LinkedHashMap<Object, Object>();
-			// fill map "map2List" + "area"
+			// fill map "priceFloorList" + "areaList"
 			for (int i = 0; i < roomsList.size(); i++) {
 				priceFloorArea.put(priceFloorList.get(i), areaList.get(i));
 			}
 
-			// map3 to list
+			// map priceFloorArea to list
 			ArrayList<Object> priceFloorAreaList = new ArrayList<Object>(priceFloorArea.entrySet());
 
 			Map<Object, Object> allInformation = new LinkedHashMap<Object, Object>();
-			// fill map "map1List" + "map3List"
+			// fill map "linkTitleRoomsList" + "priceFloorAreaList"
 			for (int i = 0; i < roomsList.size(); i++) {
 				allInformation.put(linkTitleRoomsList.get(i), priceFloorAreaList.get(i));
 			}
 
-			// map4 to list
+			// allInformation to list
 			ArrayList<Object> allInformationList = new ArrayList<Object>(allInformation.entrySet());
 
-			// replacing "=" from map4List
+			// replacing "=" from allInformationList
 			String finalInformation = allInformationList.toString().replaceAll("=", "");
 			List<String> finalInformationList = Arrays
 					.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
@@ -162,9 +162,9 @@ public class Main {
 
 			}
 			// spaces to monitor last apartment elements on each page
-			System.out.println("   ");
-			System.out.println("   ");
-			System.out.println("   ");
+			System.out.println();
+			System.out.println();
+			System.out.println();
 
 		}
 
