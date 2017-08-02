@@ -157,7 +157,7 @@ public class Main {
 			List<String> finalInformationList = Arrays
 					.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
 
-			for (int i = 0; i < finalInformationList.size() - 1; i++) {
+			for (int i = 0; i < finalInformationList.size(); i++) {
 				System.out.println(finalInformationList.get(i));
 
 			}
