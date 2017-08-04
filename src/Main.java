@@ -1,4 +1,5 @@
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -7,6 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.stream.Collectors;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -158,15 +160,31 @@ public class Main {
 					.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
 
 			for (int i = 0; i < finalInformationList.size(); i++) {
-				System.out.println(finalInformationList.get(i));
+				System.out.println(i + 1 + ". " + finalInformationList.get(i));
 
 			}
-			// spaces to monitor last apartment elements on each page
-			System.out.println();
-			System.out.println();
-			System.out.println();
+			// testing for missing elements
+			List<String> matchesNull = finalInformationList.stream().filter(it -> it.contains("null"))
+					.collect(Collectors.toList());
+
+			if (matchesNull.isEmpty()) {
+
+			} else {
+				System.out.println("found error");
+				for (int i = 0; i < matchesNull.size() - 1; i++) {
+					System.out.println(i + 1 + ". " + matchesNull.get(i));
+
+				}
+			}
 
 		}
-
+		// testing for existence of specific ID
+		File f = new File("src/TestCache.txt");
+		if (f.exists() && !f.isDirectory()) {
+			TestParsing.startTest();
+		} else {
+			TestCaching.cacheSource();
+			TestParsing.startTest();
+		}
 	}
 }
