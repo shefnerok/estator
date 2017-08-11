@@ -52,7 +52,19 @@ public class Cache {
 			String htmlCode = Jsoup
 					.connect(properties.getProperty("pagesParsingLink") + page)
 					.get().outerHtml();
-			File cacheFile = new File("cache/cache.txt");
+			//creating Cache directory
+			File theDir = new File("Cache");
+			if (!theDir.exists()) {
+			    			  
+			    try{
+			        theDir.mkdir();		       
+			    } 
+			    catch(SecurityException se){			      
+			    }        			    
+			}
+			
+			
+			File cacheFile = new File("Cache/cache.txt");
 			FileWriter fileWriter = new FileWriter(cacheFile, true);
 			fileWriter.write(htmlCode);
 			fileWriter.close();

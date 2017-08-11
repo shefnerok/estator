@@ -15,7 +15,7 @@ public class Fileparser {
 
 	public static void start() throws IOException {
 
-		File input = new File("cache/cache.txt");
+		File input = new File("Cache/cache.txt");
 		// windows-1251 - encoding set do display cyrillic chars.
 		Document parsingDocument = Jsoup.parse(input, "windows-1251");
 
@@ -121,8 +121,8 @@ public class Fileparser {
 		String finalInformation = allInformationList.toString().replaceAll("=", "");
 		List<String> finalInformationList = Arrays.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
 
-		for (int i = 0; i < finalInformationList.size() - 1; i++) {
-			System.out.println(finalInformationList.get(i));
+		for (int i = 0; i < finalInformationList.size(); i++) {
+			System.out.println(i + 1 + ". " + finalInformationList.get(i));
 
 		}
 		// spaces to monitor last apartment elements on each page
