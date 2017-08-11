@@ -5,24 +5,24 @@ private String apartmentLink;
 private String apartmentTitle;
 
 
-public Apartment(String link, String name) {
+public Apartment(String apartmentLink, String apartmentTitle) {
 	super();
-	this.apartmentLink = link;
-	this.apartmentTitle = name;
+	this.apartmentLink = apartmentLink;
+	this.apartmentTitle = apartmentTitle;
 
 }
 
 public  String getLink() {
 	return apartmentLink;
 }
-public void setLink(String link) {
-	this.apartmentLink = link;
+public void setLink(String apartmentLink) {
+	this.apartmentLink = apartmentLink;
 }
 public String getName() {
 	return apartmentTitle;
 }
-public void setName(String name) {
-	this.apartmentTitle = name;
+public void setName(String apartmentTitle) {
+	this.apartmentTitle = apartmentTitle;
 }
 @Override
 public String toString() {
