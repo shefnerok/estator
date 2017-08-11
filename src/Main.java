@@ -62,6 +62,8 @@ public class Main {
 			ArrayList<Price> priceList = new ArrayList<>();
 			ArrayList<Floor> floorList = new ArrayList<>();
 			ArrayList<Area> areaList = new ArrayList<>();
+			// data slot for specific id testing
+			ArrayList<Apartment> apartmentTestingList = new ArrayList<>();
 
 			// connect to different HTML part
 			Elements linkAndTitleElements = htmlSource.getElementsByAttributeValue("class", "ner_h3");
@@ -81,6 +83,7 @@ public class Main {
 				String title = linksAndTitlesElements.text();
 
 				apartmentList.add(new Apartment(link, title));
+				apartmentTestingList.add(new Apartment(link, title));
 
 			});
 
@@ -171,20 +174,42 @@ public class Main {
 
 			} else {
 				System.out.println("found error");
-				for (int i = 0; i < matchesNull.size() - 1; i++) {
+				for (int i = 0; i < matchesNull.size(); i++) {
 					System.out.println(i + 1 + ". " + matchesNull.get(i));
 
 				}
 			}
+			// testing for existence of specific ID
+			File f = new File("src/TestCache.txt");
+			if (f.exists() && !f.isDirectory()) {
+
+				String finalTestingIfo = apartmentTestingList.toString();
+				List<String> finalTestingInfoList = Arrays
+						.asList(finalTestingIfo.substring(1, finalTestingIfo.length() - 1).split(", "));
+				List<String> matchesId = finalTestingInfoList.stream()
+						.filter(it -> it.contains(properties.getProperty("id"))).collect(Collectors.toList());
+
+				// testing output
+				if (matchesId.isEmpty()) {
+					System.out.println("No elements with this ID");
+				}
+			} else {
+
+				TestCaching.cacheSource();
+
+				String finalTestingIfo = apartmentTestingList.toString();
+				List<String> finalTestingInfoList = Arrays
+						.asList(finalTestingIfo.substring(1, finalTestingIfo.length() - 1).split(", "));
+				List<String> matchesId = finalTestingInfoList.stream()
+						.filter(it -> it.contains(properties.getProperty("id"))).collect(Collectors.toList());
+
+				// testing output
+				if (matchesId.isEmpty()) {
+					System.out.println("No elements with this ID");
+				}
+			}
 
 		}
-		// testing for existence of specific ID
-		File f = new File("src/TestCache.txt");
-		if (f.exists() && !f.isDirectory()) {
-			TestParsing.startTest();
-		} else {
-			TestCaching.cacheSource();
-			TestParsing.startTest();
-		}
+
 	}
 }
