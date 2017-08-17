@@ -50,7 +50,7 @@ public class Main {
 		Object lastPage = pages.get(3);
 		int lastPageNumber = Integer.valueOf((String) lastPage);
 		// parsing website
-		for (int page = 1; page <= 1; page++) {
+		for (int page = 1; page <= lastPageNumber; page++) {
 			Parser.Parse(Jsoup.connect(properties.getProperty("website")).get());
 		}
 		// outputting website
