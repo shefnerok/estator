@@ -58,60 +58,30 @@ tips_timeouts[elm_id.replace('#','')] = setTimeout("$('"+elm_id+"').css('display
 }
 </script> 
   <!--script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-1.4.4.min.js"></script--> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-1.8.3.min.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/ui.datepicker2.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/atooltip.jquery.js&amp;659"></script> 
-  <link href="../min/?f=/skin/ua/datepicker2.css&amp;659" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-1.8.3.min.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/ui.datepicker2.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/atooltip.jquery.js&amp;660"></script> 
+  <link href="../min/?f=/skin/ua/datepicker2.css&amp;660" rel="stylesheet" type="text/css"> 
   <script type="text/javascript" src="../min/?f=/skin/ua/js/datadumper.js"></script> 
-  <script type="text/javascript" src="../main/cfg.main.javascript.php?mn=catalog&amp;mode=&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.easing.1.3.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-galleryview-1.0.1/jquery.galleryview-1.0.1-pack.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-galleryview-1.0.1/jquery.timers-1.1.2.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/thickbox.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.autocomplete.js&amp;659"></script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/ankscript.js&amp;659" charset="utf-8"></script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/script.js&amp;659" charset="utf-8"></script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/js/jquery-ui-1.8.16.dialog.js&amp;659"></script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/js/jquery.bgiframe.min.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/plupload.full.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/plupload.flash.js&amp;659"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.Jcrop.min.js&amp;659"></script> 
-  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/js/jquery.Jcrop.css&amp;659" title="stylesheet"> 
-  <script src="../min/?f=/skin/ua/js/jquery.simplemodal.js&amp;659" type="text/javascript"></script> 
-  <link href="../min/?f=/skin/ua/js/add-photo-simplemodal.css&amp;659" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="../main/cfg.main.javascript.php?mn=catalog&amp;mode=&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.easing.1.3.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-galleryview-1.0.1/jquery.galleryview-1.0.1-pack.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery-galleryview-1.0.1/jquery.timers-1.1.2.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/thickbox.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.autocomplete.js&amp;660"></script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/ankscript.js&amp;660" charset="utf-8"></script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/script.js&amp;660" charset="utf-8"></script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/js/jquery-ui-1.8.16.dialog.js&amp;660"></script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/js/jquery.bgiframe.min.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/plupload.full.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/plupload.flash.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.Jcrop.min.js&amp;660"></script> 
+  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/js/jquery.Jcrop.css&amp;660" title="stylesheet"> 
+  <script src="../min/?f=/skin/ua/js/jquery.simplemodal.js&amp;660" type="text/javascript"></script> 
+  <link href="../min/?f=/skin/ua/js/add-photo-simplemodal.css&amp;660" rel="stylesheet" type="text/css"> 
   <script src="/skin/ua/js/vmgallery.js" type="text/javascript"></script> 
-  <script src="../min/?f=/skin/ua/js/ajaxupload.3.5.js&amp;659" type="text/javascript"></script> 
-  <script>
-mode_uploader='other';
-if(mode_uploader=='useredit'){
-var images_path = '';
-}else{
-var images_path = '';
-}
-var images_path_pay = '';
-var up_img_min_w = '';
-var up_img_min_h = '';
-var up_img_min_w_pay = '';
-var up_img_min_h_pay = '';
-max_flash_upload_filesize = '';
-upload_images_file_url = '';
-upload_flash_swf_url = '../skin/ua/js/plupload.flash.swf';
-uploader_img_max_width = ;
-uploader_img_max_height = ;
-uploader_img_max_width_window = ;
-uploader_img_max_height_window = ;
-uploader_flash_img_quality = ;
-uploader_delete_image_file_url = '';
-uploader_crop_image_file_url = '';
-uploader_rotate_image_file_url = '';
-uploader_progressinfo_file_url = '';
-uploader_max_fotos_count_announcement = ;
-uploader_max_proportion = ;
-</script> 
-  <!-- Інклудинг uploadPhotoManager.js тільки після верхніх налаштувань --> 
-  <script src="../min/?f=/skin/ua/js/uploadPhotoPayManager.js&amp;659" type="text/javascript" charset="utf-8"></script> 
-  <script src="../min/?f=/skin/ua/js/uploadPhotoManager.js&amp;659" type="text/javascript"></script> 
-  <script src="../min/?f=/skin/ua/js/banner-fixator.js&amp;659" type="text/javascript"></script> 
+  <script src="../min/?f=/skin/ua/js/ajaxupload.3.5.js&amp;660" type="text/javascript"></script> 
+  <script src="../min/?f=/skin/ua/js/banner-fixator.js&amp;660" type="text/javascript"></script> 
   <script type="text/javascript">$(window).load(function(){_fixBanners('#thefixed');});</script> 
   <meta http-equiv="Pragma" content="no-cache"> 
   <meta http-equiv="Cache-Control" content="no-cache"> 
@@ -139,23 +109,23 @@ var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(wf, s);
 })();
 </script> 
-  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/vm.css&amp;65914" title="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/vm.css&amp;66014" title="stylesheet"> 
   <!--[if IE 6]>
-<link rel="stylesheet" type="text/css" href="../skin/ua/ie6.css&659" title="stylesheet">
+<link rel="stylesheet" type="text/css" href="../skin/ua/ie6.css&660" title="stylesheet">
 <![endif]--> 
   <!--[if IE 7]>
-<link rel="stylesheet" type="text/css" href="../skin/ua/ie7.css&659" title="stylesheet">
+<link rel="stylesheet" type="text/css" href="../skin/ua/ie7.css&660" title="stylesheet">
 <![endif]--> 
   <!--[if IE 8]>
-<link rel="stylesheet" type="text/css" href="../skin/ua/ie8.css&659" title="stylesheet">
+<link rel="stylesheet" type="text/css" href="../skin/ua/ie8.css&660" title="stylesheet">
 <![endif]--> 
   <!--[if IE 9]>
-<link rel="stylesheet" type="text/css" href="../skin/ua/ie9.css&659" title="stylesheet">
+<link rel="stylesheet" type="text/css" href="../skin/ua/ie9.css&660" title="stylesheet">
 <![endif]--> 
   <link href="../min/?f=/skin/ua/js/lib/jscroll/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"> 
   <script src="../min/?f=/skin/ua/js/lib/jscroll/mCustomScrollbar.js"></script> 
-  <link rel="stylesheet" href="../min/?f=/skin/ua/thickbox.css&amp;659" type="text/css" media="screen"> 
-  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/base.css&amp;659" title="stylesheet"> 
+  <link rel="stylesheet" href="../min/?f=/skin/ua/thickbox.css&amp;660" type="text/css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="../min/?f=/skin/ua/base.css&amp;660" title="stylesheet"> 
   <script>
 function show_menu(Code){
 document.getElementById("m"+Code).style.visibility="visible";
@@ -174,8 +144,8 @@ menu.style.visibility="hidden";
 }
 }
 </script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/tree.js&amp;659"> </script> 
-  <script language="JavaScript" src="../min/?f=/skin/ua/overlib.js&amp;659"> </script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/tree.js&amp;660"> </script> 
+  <script language="JavaScript" src="../min/?f=/skin/ua/overlib.js&amp;660"> </script> 
   <script language="JavaScript">
 <!--
 function SelectAll(mark) {
@@ -328,10 +298,8 @@ $.cookies.del('just_loged_in');
 }
 });
 </script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.cookies.2.2.0.js&amp;659"></script> 
-  <script>var fuckAdBlock = false;</script> 
-  <script type="text/javascript" src="/skin/ua/js/blockadblock.js"></script> 
-  <script type="text/javascript" src="../min/?f=/skin/ua/js/ga_events.js&amp;659"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/jquery.cookies.2.2.0.js&amp;660"></script> 
+  <script type="text/javascript" src="../min/?f=/skin/ua/js/ga_events.js&amp;660"></script> 
   <script type="text/javascript">
 (function() {
 var useSSL = 'https:' == document.location.protocol;
@@ -1251,7 +1219,7 @@ $('a.for_j').find('span').html('&#8372;');
            </div> 
           </div> 
          </div> 
-         <!-- /vm-modal gallery container --> <script>anno_images[1719546]="150160296524690,150160297798843";anno_images[1594031]="146797185385124,146797185677452,146797185989452,146797186210239,146797186579953,146797186851111,146797187269401,146797187573086,146797187830655,146797188124028,146797188484844,146797188813519";anno_images[1525389]="147704473884010,147704474545703,147704475358560,147704475918501,147704476545753";anno_images[1699712]="149431305424315,149431305869847,149431306285665";anno_images[1688868]="149131198638557,149131199492763,149131200388838,149131201611142,149131202630348,149131203613248,149131204543442,149131205489371,149131206279563,149131207092082,149131207918739,149131209016051";anno_images[1730270]="150182790571172,150182797268544,150182799037271";anno_images[1500189]="150175354625685";anno_images[1599722]="146927009630201,146927009969405,148766955596675";anno_images[1599726]="146927109216417,150092799652942,150092800149775,150092800766181,150092801094448,150092801615072,150092802841983,150092803140715";anno_images[1573867]="146358680290813,146358680952291,146358681345261,146358681794143,146358682132789";anno_images[1733727]="150280178444330,150280188447996,150280195420099,150280209832243,150280220298433,150280226799791,150280236866989,150280244916996,150280251779459,150280258738682,150280264546073,150280270680965";anno_images[1532579]="149934646791712,149934647468577,149934648291603,149934649180484,149934649895226,149934650457824,149934657375250,149934651899886,149934652747863,149934654145520,149934655327776";anno_images[1726873]="150097054826294,150097055394944,150097055916606,150097056556334,150097057223158,150097057919465,150097058598998,150097059148458,150097059619669,150097060250192,150097060880102";anno_images[1662627]="148532628559034,148532629587961,148532630366384,148532631374995,148532632540668,148532633697699,148532637816462,148532638672870";anno_images[1681350]="148966779210979,148966781010481,148966782122638,148966783396611,148966784638370,148966785869624,148966787559681,148966788948547,148966790423099,148966791979042,148966792897961,148966793852325";anno_images[1572641]="149830676267545,149830691978047,149830700129541,149830701176513,149830702282167,149830708539362";</script> <script>
+         <!-- /vm-modal gallery container --> <script>anno_images[1719546]="150160296524690,150160297798843";anno_images[1722094]="149969099838571,149969101442985,149969103023716,149969105412493,149969108338819,149969110686951,149969115362043";anno_images[1594031]="146797185385124,146797185677452,146797185989452,146797186210239,146797186579953,146797186851111,146797187269401,146797187573086,146797187830655,146797188124028,146797188484844,146797188813519";anno_images[1525389]="147704473884010,147704474545703,147704475358560,147704475918501,147704476545753";anno_images[1699712]="149431305424315,149431305869847,149431306285665";anno_images[1688868]="149131198638557,149131199492763,149131200388838,149131201611142,149131202630348,149131203613248,149131204543442,149131205489371,149131206279563,149131207092082,149131207918739,149131209016051";anno_images[1730270]="150182790571172,150182797268544,150182799037271";anno_images[1500189]="150175354625685";anno_images[1599726]="146927109216417,150092799652942,150092800149775,150092800766181,150092801094448,150092801615072,150092802841983,150092803140715";anno_images[1573867]="146358680290813,146358680952291,146358681345261,146358681794143,146358682132789";anno_images[1599716]="148827583922064,148827585040663,148827585439386,148827587673178,148827588593006,148827590723034";anno_images[1532579]="149934646791712,149934647468577,149934648291603,149934649180484,149934649895226,149934650457824,149934657375250,149934651899886,149934652747863,149934654145520,149934655327776";anno_images[1726873]="150097054826294,150097055394944,150097055916606,150097056556334,150097057223158,150097057919465,150097058598998,150097059148458,150097059619669,150097060250192,150097060880102";anno_images[1662627]="148532628559034,148532629587961,148532630366384,148532631374995,148532632540668,148532633697699,148532637816462,148532638672870";anno_images[1681350]="148966779210979,148966781010481,148966782122638,148966783396611,148966784638370,148966785869624,148966787559681,148966788948547,148966790423099,148966791979042,148966792897961,148966793852325";anno_images[1572641]="149830676267545,149830691978047,149830700129541,149830701176513,149830702282167,149830708539362";anno_images[1664077]="148577193452940,148577194097846,148577194322439,148577194688431,148577195069032";</script> <script>
 var rubricator_path = {'section':{'id':'1','nick':'nerukhomist'},'rub':{'id':'104','nick':'kvartyry'},'filtr_kimnatu':{'nick':''}};
 var filtr_arr_def_obj={'filtr_search_word':'шукати в знайденому...','check_f2_uo_1':'ціна від:','check_f2_uo_2':'ціна до:','check_i4_1':'площа від:','check_i4_2':'площа до:','check_i2_1':'поверх від:','check_i2_2':'поверх до:','check_i3_2':'стіни:','key_word_filtr':'кіл. кімнат:'};
 var img_arr=["/img/show_filter.png","/img/show_filter_ch.png"];
@@ -1682,7 +1650,7 @@ $(".dropdovn_sort").find(".dropdovn_sort_elem:last").css({"border-bottom":"none"
 </script> 
          <div class="rubr-bread"> 
           <div class="foot_rubpath_wrap puth_block"> 
-           <h2 class="rubr-title"> <a class="text_s2" href="/nerukhomist/"><span class="foot_rub_name">Нерухомiсть</span></a> » <a class="text_s2" href="/nerukhomist/kvartyry/"><span class="foot_rub_name">Квартири</span><span class="filtr_rub_count"> (4114)</span></a> </h2> 
+           <h2 class="rubr-title"> <a class="text_s2" href="/nerukhomist/"><span class="foot_rub_name">Нерухомiсть</span></a> » <a class="text_s2" href="/nerukhomist/kvartyry/"><span class="foot_rub_name">Квартири</span><span class="filtr_rub_count"> (3837)</span></a> </h2> 
           </div> 
          </div> 
          <form action="/nerukhomist/kvartyry/" method="POST" name="price" id="price" onsubmit="" ; accept-charset="Windows-1251"> 
@@ -2126,7 +2094,7 @@ name="limit1">
                    Ціна за об'єкти вказана у 
                   <b>гривні</b>!
                   <br> (еквівалент дорівнює 
-                  <b>26</b>) 
+                  <b>25,5</b>) 
                  </div> 
                 </div> 
                 <div class="info-tooltip-bottom">
@@ -2210,7 +2178,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">598 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">586 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2231,7 +2199,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">598 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">586 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2286,7 +2254,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 297 400 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 272 450 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2307,7 +2275,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 297 400&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 272 450&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2320,6 +2288,82 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51719546" style="" class=""> 
+                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
+                </tr> 
+                <tr class="border_bo "> 
+                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
+                </tr> 
+               </tbody>
+              </table></td>
+            </tr> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <tr style="width:100%;">
+             <td colspan="5">
+              <div class="rieltor-hide"> 
+              </div>
+              <table class="ogo-buf"> 
+               <tbody>
+                <tr class="r_top_r " style="height: 13px;"> 
+                 <td colspan="3">
+                  <div class="papa_el"></div></td> 
+                 <td></td> 
+                 <td></td> 
+                </tr> 
+                <tr style="" id="tr_det_11722094" class=""> 
+                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
+                  <!-- <div class="shad_right"> --> 
+                  <!--        <div class="shad_bot"> --> 
+                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1722094/" target="_blank" class="img-thick img-cursor ogo-img" title=""> <span class="photocount photocount-fix">&nbsp;7</span> <img src="../shop/img_free/preview_149969099838571.jpg" style="border:none" alt="" rel="gallery-plant1722094"> </a>
+                  <!-- </div> --> 
+                  <!--     </div> --> 
+                  <!--      </div> --></td> 
+                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1722094/" target="_blank">Продам 2-кімнатну квартиру на в. Айвазовського І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
+                                    window.open('/map_p.php?id=1722094&amp;lat=49.8126112&amp;lng=23.9978003&amp;circle=0','',p)">карта</a></span> </h3> </td> 
+                </tr> 
+                <tr style="cursor:pointer" id="tr_det_21722094" class=""> 
+                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">2</span><br> </span> <span class="stin"> панель</span> </td> 
+                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 3/9 </td> 
+                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 50/29/7.5 </td> 
+                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
+                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
+                   <div class="right" style="float:right; text-align:right;"> 
+                    <nobr>
+                     <span style="font-family:tahoma;">765 000 &#x20b4;</span>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <b style="font-family:tahoma;">30 000 $</b>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">600 $</span>
+                    </nobr> 
+                   </div> 
+                   <div class="left ogo-hided"> 
+                    <span style="color: #898989;">ціна:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">екв:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
+                   </div> 
+                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
+                    <nobr> 
+                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
+                     <span style="font-family:tahoma;">765 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                    </nobr> 
+                   </div> 
+                  </div> </td> 
+                </tr> 
+                <tr style="" id="tr_det_31722094" class=""> 
+                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1722094"><span idx="1" nidx="nomer" itdx="1722094">(067) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1722094/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1722094" name="id[]">в блокнот</a> </span></td> 
+                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
+<span class="detail_but" id="det_but_1722094"></span>
+<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1722094" name="id[]"></a>
+</td--> 
+                </tr>  
+                <tr id="tr_det_51722094" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -2362,7 +2406,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">546 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">535 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2383,7 +2427,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">546 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">535 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2437,7 +2481,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">2 210 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">2 167 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2458,7 +2502,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">2 210 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">2 167 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2512,7 +2556,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 040 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 020 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2533,7 +2577,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 040 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 020 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2587,7 +2631,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">780 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">765 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2608,7 +2652,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">780 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">765 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2663,7 +2707,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">936 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">918 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2684,7 +2728,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">936 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">918 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2697,6 +2741,82 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51728029" style="" class=""> 
+                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
+                </tr> 
+                <tr class="border_bo "> 
+                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
+                </tr> 
+               </tbody>
+              </table></td>
+            </tr> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <tr style="width:100%;">
+             <td colspan="5">
+              <div class="rieltor-hide"> 
+              </div>
+              <table class="ogo-buf"> 
+               <tbody>
+                <tr class="r_top_r " style="height: 13px;"> 
+                 <td colspan="3">
+                  <div class="papa_el"></div></td> 
+                 <td></td> 
+                 <td></td> 
+                </tr> 
+                <tr style="" id="tr_det_11710547" class=""> 
+                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
+                  <!-- <div class="shad_right"> --> 
+                  <!--        <div class="shad_bot"> --> 
+                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1710547/" target="_blank" class=" img-cur-def ogo-img" title=""> <img src="/img/new/n.neruh.gif" style="border:none" alt="" rel="gallery-plant1710547"> </a>
+                  <!-- </div> --> 
+                  <!--     </div> --> 
+                  <!--      </div> --></td> 
+                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1710547/" target="_blank">Продам 2-кімнатну квартиру на в. Антоненка-Давидовича Б. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
+                                    window.open('/map_p.php?id=1710547&amp;lat=49.792128111906216&amp;lng=24.061951875610248&amp;circle=1','',p)">карта</a></span> </h3> </td> 
+                </tr> 
+                <tr style="cursor:pointer" id="tr_det_21710547" class=""> 
+                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">2</span><br> </span> <span class="stin"> панель</span> </td> 
+                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 3/9 </td> 
+                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 52/30/9 </td> 
+                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
+                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
+                   <div class="right" style="float:right; text-align:right;"> 
+                    <nobr>
+                     <span style="font-family:tahoma;">777 750 &#x20b4;</span>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <b style="font-family:tahoma;">30 500 $</b>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">587 $</span>
+                    </nobr> 
+                   </div> 
+                   <div class="left ogo-hided"> 
+                    <span style="color: #898989;">ціна:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">екв:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
+                   </div> 
+                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
+                    <nobr> 
+                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
+                     <span style="font-family:tahoma;">777 750&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                    </nobr> 
+                   </div> 
+                  </div> </td> 
+                </tr> 
+                <tr style="" id="tr_det_31710547" class=""> 
+                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1710547"><span idx="1" nidx="nomer" itdx="1710547">(063) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1710547/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1710547" name="id[]">в блокнот</a> </span></td> 
+                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
+<span class="detail_but" id="det_but_1710547"></span>
+<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1710547" name="id[]"></a>
+</td--> 
+                </tr>  
+                <tr id="tr_det_51710547" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -2738,7 +2858,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">884 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">867 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2759,7 +2879,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">884 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">867 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2814,7 +2934,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">962 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">943 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -2835,7 +2955,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">962 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">943 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2880,7 +3000,7 @@ padding-top: 7px;
                   <!--     </div> --> 
                   <!--      </div> --></td> 
                  <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1730270/" target="_blank">Продам 2-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
-                                    window.open('/map_p.php?id=1730270&amp;lat=49.78285232028739&amp;lng=24.068747699238884&amp;circle=1','',p)">карта</a></span> </h3> </td> 
+                                    window.open('/map_p.php?id=1730270&amp;lat=49.78276226319865&amp;lng=24.0688228010913&amp;circle=1','',p)">карта</a></span> </h3> </td> 
                 </tr> 
                 <tr style="cursor:pointer" id="tr_det_21730270" class=""> 
                  <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">2</span><br> </span> <span class="stin"> панель</span> </td> 
@@ -2890,15 +3010,15 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">806 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">816 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
-                     <b style="font-family:tahoma;">31 000 $</b>
+                     <b style="font-family:tahoma;">32 000 $</b>
                     </nobr>
                     <br> 
                     <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">574 $</span>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">593 $</span>
                     </nobr> 
                    </div> 
                    <div class="left ogo-hided"> 
@@ -2911,7 +3031,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">806 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">816 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -2969,11 +3089,11 @@ padding-top: 7px;
                     </nobr>
                     <br> 
                     <nobr>
-                     <b style="font-family:tahoma;">51 923 $</b>
+                     <b style="font-family:tahoma;">52 941 $</b>
                     </nobr>
                     <br> 
                     <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">597 $</span>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">609 $</span>
                     </nobr> 
                    </div> 
                    <div class="left ogo-hided"> 
@@ -3041,7 +3161,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">806 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">790 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3062,7 +3182,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">806 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">790 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3075,81 +3195,6 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51500189" style="" class=""> 
-                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
-                </tr> 
-                <tr class="border_bo "> 
-                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
-                </tr> 
-               </tbody>
-              </table></td>
-            </tr> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <tr style="width:100%;">
-             <td colspan="5">
-              <div class="rieltor-hide"> 
-              </div>
-              <table class="ogo-buf"> 
-               <tbody>
-                <tr class="r_top_r " style="height: 13px;"> 
-                 <td colspan="3">
-                  <div class="papa_el"></div></td> 
-                 <td></td> 
-                 <td></td> 
-                </tr> 
-                <tr style="" id="tr_det_11599722" class=""> 
-                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
-                  <!-- <div class="shad_right"> --> 
-                  <!--        <div class="shad_bot"> --> 
-                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599722/" target="_blank" class="img-thick img-cursor ogo-img" title=""> <span class="photocount photocount-fix">&nbsp;3</span> <img src="../shop/img_free/preview_146927009630201.jpg" style="border:none" alt="" rel="gallery-plant1599722"> </a>
-                  <!-- </div> --> 
-                  <!--     </div> --> 
-                  <!--      </div> --></td> 
-                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599722/" target="_blank">Продам 2-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> </h3> </td> 
-                </tr> 
-                <tr style="cursor:pointer" id="tr_det_21599722" class=""> 
-                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">2</span><br> </span> <span class="stin"> цегла</span> </td> 
-                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 5/10 </td> 
-                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 65/32/17 </td> 
-                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
-                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
-                   <div class="right" style="float:right; text-align:right;"> 
-                    <nobr>
-                     <span style="font-family:tahoma;">929 500 &#x20b4;</span>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <b style="font-family:tahoma;">35 750 $</b>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">550 $</span>
-                    </nobr> 
-                   </div> 
-                   <div class="left ogo-hided"> 
-                    <span style="color: #898989;">ціна:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">екв:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
-                   </div> 
-                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
-                    <nobr> 
-                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">929 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
-                    </nobr> 
-                   </div> 
-                  </div> </td> 
-                </tr> 
-                <tr style="" id="tr_det_31599722" class=""> 
-                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1599722"><span idx="1" nidx="nomer" itdx="1599722">(067) <span class="tell-show-span">показати</span></span></span> <span class="ner-auto-tel show_t tels_block2_nomer_1599722"><span idx="2" nidx="nomer" itdx="1599722">(093) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599722/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1599722" name="id[]">в блокнот</a> </span></td> 
-                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
-<span class="detail_but" id="det_but_1599722"></span>
-<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1599722" name="id[]"></a>
-</td--> 
-                </tr>  
-                <tr id="tr_det_51599722" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -3192,7 +3237,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 073 800 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 053 150 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3213,7 +3258,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 073 800&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 053 150&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3267,7 +3312,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 404 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 377 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3288,7 +3333,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 404 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 377 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3301,6 +3346,82 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51573867" style="" class=""> 
+                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
+                </tr> 
+                <tr class="border_bo "> 
+                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
+                </tr> 
+               </tbody>
+              </table></td>
+            </tr> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <tr style="width:100%;">
+             <td colspan="5">
+              <div class="rieltor-hide"> 
+              </div>
+              <table class="ogo-buf"> 
+               <tbody>
+                <tr class="r_top_r " style="height: 13px;"> 
+                 <td colspan="3">
+                  <div class="papa_el"></div></td> 
+                 <td></td> 
+                 <td></td> 
+                </tr> 
+                <tr style="" id="tr_det_11599716" class=""> 
+                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
+                  <!-- <div class="shad_right"> --> 
+                  <!--        <div class="shad_bot"> --> 
+                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599716/" target="_blank" class="img-thick img-cursor ogo-img" title=""> <span class="photocount photocount-fix">&nbsp;6</span> <img src="../shop/img_free/preview_148827583922064.jpg" style="border:none" alt="" rel="gallery-plant1599716"> </a>
+                  <!-- </div> --> 
+                  <!--     </div> --> 
+                  <!--      </div> --></td> 
+                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599716/" target="_blank">Продам 1-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
+                                    window.open('/map_p.php?id=1599716&amp;lat=49.826405655092046&amp;lng=24.015040397644043&amp;circle=1','',p)">карта</a></span> </h3> </td> 
+                </tr> 
+                <tr style="cursor:pointer" id="tr_det_21599716" class=""> 
+                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">1</span><br> </span> <span class="stin"> цегла</span> </td> 
+                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 6/10 </td> 
+                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 47/17.5/14 </td> 
+                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
+                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
+                   <div class="right" style="float:right; text-align:right;"> 
+                    <nobr>
+                     <span style="font-family:tahoma;">637 500 &#x20b4;</span>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <b style="font-family:tahoma;">25 000 $</b>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">532 $</span>
+                    </nobr> 
+                   </div> 
+                   <div class="left ogo-hided"> 
+                    <span style="color: #898989;">ціна:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">екв:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
+                   </div> 
+                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
+                    <nobr> 
+                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
+                     <span style="font-family:tahoma;">637 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                    </nobr> 
+                   </div> 
+                  </div> </td> 
+                </tr> 
+                <tr style="" id="tr_det_31599716" class=""> 
+                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1599716"><span idx="1" nidx="nomer" itdx="1599716">(067) <span class="tell-show-span">показати</span></span></span> <span class="ner-auto-tel show_t tels_block2_nomer_1599716"><span idx="2" nidx="nomer" itdx="1599716">(093) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/novobudovy-nezaversheni/personal_page/nomer/1599716/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1599716" name="id[]">в блокнот</a> </span></td> 
+                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
+<span class="detail_but" id="det_but_1599716"></span>
+<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1599716" name="id[]"></a>
+</td--> 
+                </tr>  
+                <tr id="tr_det_51599716" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -3342,7 +3463,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">585 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">573 750 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3363,7 +3484,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">585 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">573 750&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3376,157 +3497,6 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51664344" style="" class=""> 
-                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
-                </tr> 
-                <tr class="border_bo "> 
-                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
-                </tr> 
-               </tbody>
-              </table></td>
-            </tr> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <tr style="width:100%;">
-             <td colspan="5">
-              <div class="rieltor-hide"> 
-              </div>
-              <table class="ogo-buf"> 
-               <tbody>
-                <tr class="r_top_r " style="height: 13px;"> 
-                 <td colspan="3">
-                  <div class="papa_el"></div></td> 
-                 <td></td> 
-                 <td></td> 
-                </tr> 
-                <tr style="" id="tr_det_11733727" class=""> 
-                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
-                  <!-- <div class="shad_right"> --> 
-                  <!--        <div class="shad_bot"> --> 
-                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1733727/" target="_blank" class="img-thick img-cursor ogo-img" title=""> <span class="photocount photocount-fix">&nbsp;12</span> <img src="../shop/img_free/preview_150280178444330.jpg" style="border:none" alt="" rel="gallery-plant1733727"> </a>
-                  <!-- </div> --> 
-                  <!--     </div> --> 
-                  <!--      </div> --></td> 
-                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1733727/" target="_blank">Продам 3-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
-                                    window.open('/map_p.php?id=1733727&amp;lat=49.78599543874424&amp;lng=24.071479439735413&amp;circle=1','',p)">карта</a></span> </h3> </td> 
-                </tr> 
-                <tr style="cursor:pointer" id="tr_det_21733727" class=""> 
-                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">3</span><br> </span> <span class="stin"> панель</span> </td> 
-                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 8/9 </td> 
-                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 71/42/10 </td> 
-                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
-                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
-                   <div class="right" style="float:right; text-align:right;"> 
-                    <nobr>
-                     <span style="font-family:tahoma;">1 170 000 &#x20b4;</span>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <b style="font-family:tahoma;">45 000 $</b>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">634 $</span>
-                    </nobr> 
-                   </div> 
-                   <div class="left ogo-hided"> 
-                    <span style="color: #898989;">ціна:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">екв:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
-                   </div> 
-                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
-                    <nobr> 
-                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 170 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
-                    </nobr> 
-                   </div> 
-                  </div> </td> 
-                </tr> 
-                <tr style="" id="tr_det_31733727" class=""> 
-                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1733727"><span idx="1" nidx="nomer" itdx="1733727">(067) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1733727/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1733727" name="id[]">в блокнот</a> </span></td> 
-                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
-<span class="detail_but" id="det_but_1733727"></span>
-<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1733727" name="id[]"></a>
-</td--> 
-                </tr>  
-                <tr id="tr_det_51733727" style="" class=""> 
-                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
-                </tr> 
-                <tr class="border_bo "> 
-                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
-                </tr> 
-               </tbody>
-              </table></td>
-            </tr> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <tr style="width:100%;">
-             <td colspan="5">
-              <div class="rieltor-hide"> 
-              </div>
-              <table class="ogo-buf"> 
-               <tbody>
-                <tr class="r_top_r " style="height: 13px;"> 
-                 <td colspan="3">
-                  <div class="papa_el"></div></td> 
-                 <td></td> 
-                 <td></td> 
-                </tr> 
-                <tr style="" id="tr_det_11415853" class=""> 
-                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
-                  <!-- <div class="shad_right"> --> 
-                  <!--        <div class="shad_bot"> --> 
-                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/novobudovy-zdans-pislya-2011/personal_page/nomer/1415853/" target="_blank" class=" img-cur-def ogo-img" title=""> <img src="/img/new/n.neruh.gif" style="border:none" alt="" rel="gallery-plant1415853"> </a>
-                  <!-- </div> --> 
-                  <!--     </div> --> 
-                  <!--      </div> --></td> 
-                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/novobudovy-zdans-pislya-2011/personal_page/nomer/1415853/" target="_blank">Продам 1-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> </h3> </td> 
-                </tr> 
-                <tr style="cursor:pointer" id="tr_det_21415853" class=""> 
-                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">1</span><br> </span> <span class="stin"> цегла</span> </td> 
-                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 5/10 </td> 
-                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 47.5/18.5/11 </td> 
-                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
-                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
-                   <div class="right" style="float:right; text-align:right;"> 
-                    <nobr>
-                     <span style="font-family:tahoma;">702 000 &#x20b4;</span>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <b style="font-family:tahoma;">27 000 $</b>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">568 $</span>
-                    </nobr> 
-                   </div> 
-                   <div class="left ogo-hided"> 
-                    <span style="color: #898989;">ціна:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">екв:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
-                   </div> 
-                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
-                    <nobr> 
-                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">702 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
-                    </nobr> 
-                   </div> 
-                  </div> </td> 
-                </tr> 
-                <tr style="" id="tr_det_31415853" class=""> 
-                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1415853"><span idx="1" nidx="nomer" itdx="1415853">(068) <span class="tell-show-span">показати</span></span></span> <span class="ner-auto-tel show_t tels_block2_nomer_1415853"><span idx="2" nidx="nomer" itdx="1415853">(095) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/novobudovy-zdans-pislya-2011/personal_page/nomer/1415853/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1415853" name="id[]">в блокнот</a> </span></td> 
-                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
-<span class="detail_but" id="det_but_1415853"></span>
-<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1415853" name="id[]"></a>
-</td--> 
-                </tr>  
-                <tr id="tr_det_51415853" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -3569,7 +3539,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">903 500 &#x20b4;</span>
+                     <span style="font-family:tahoma;">886 125 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3590,7 +3560,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">903 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">886 125&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3645,7 +3615,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 196 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 173 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3666,7 +3636,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 196 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 173 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3720,7 +3690,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 040 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 020 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3741,7 +3711,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 040 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 020 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3754,82 +3724,6 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51675833" style="" class=""> 
-                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
-                </tr> 
-                <tr class="border_bo "> 
-                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
-                </tr> 
-               </tbody>
-              </table></td>
-            </tr> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <!-- /////////////////////////////////////////////////////////////// --> 
-            <tr style="width:100%;">
-             <td colspan="5">
-              <div class="rieltor-hide"> 
-              </div>
-              <table class="ogo-buf"> 
-               <tbody>
-                <tr class="r_top_r " style="height: 13px;"> 
-                 <td colspan="3">
-                  <div class="papa_el"></div></td> 
-                 <td></td> 
-                 <td></td> 
-                </tr> 
-                <tr style="" id="tr_det_11727485" class=""> 
-                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
-                  <!-- <div class="shad_right"> --> 
-                  <!--        <div class="shad_bot"> --> 
-                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1727485/" target="_blank" class=" img-cur-def ogo-img" title=""> <img src="/img/new/n.neruh.gif" style="border:none" alt="" rel="gallery-plant1727485"> </a>
-                  <!-- </div> --> 
-                  <!--     </div> --> 
-                  <!--      </div> --></td> 
-                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1727485/" target="_blank">Продам 3-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
-                                    window.open('/map_p.php?id=1727485&amp;lat=49.78496595828524&amp;lng=24.06986975662221&amp;circle=1','',p)">карта</a></span> </h3> </td> 
-                </tr> 
-                <tr style="cursor:pointer" id="tr_det_21727485" class=""> 
-                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">3</span><br> </span> <span class="stin"> панель</span> </td> 
-                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 4/9 </td> 
-                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 71/47/10 </td> 
-                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
-                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
-                   <div class="right" style="float:right; text-align:right;"> 
-                    <nobr>
-                     <span style="font-family:tahoma;">1 690 000 &#x20b4;</span>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <b style="font-family:tahoma;">65 000 $</b>
-                    </nobr>
-                    <br> 
-                    <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">915 $</span>
-                    </nobr> 
-                   </div> 
-                   <div class="left ogo-hided"> 
-                    <span style="color: #898989;">ціна:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">екв:&nbsp;</span>
-                    <br> 
-                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
-                   </div> 
-                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
-                    <nobr> 
-                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 690 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
-                    </nobr> 
-                   </div> 
-                  </div> </td> 
-                </tr> 
-                <tr style="" id="tr_det_31727485" class=""> 
-                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1727485"><span idx="1" nidx="nomer" itdx="1727485">(067) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1727485/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1727485" name="id[]">в блокнот</a> </span></td> 
-                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
-<span class="detail_but" id="det_but_1727485"></span>
-<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1727485" name="id[]"></a>
-</td--> 
-                </tr>  
-                <tr id="tr_det_51727485" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -3872,7 +3766,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">832 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">816 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -3893,7 +3787,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">832 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">816 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -3938,7 +3832,7 @@ padding-top: 7px;
                   <!--     </div> --> 
                   <!--      </div> --></td> 
                  <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/sykhivskyy-rayon/personal_page/nomer/1726873/" target="_blank">Продам 3-кімнатну квартиру на в. Антонича Б.І. (Львів)</a> <span class="map_mark"><a href="javascript:void(0)" onclick="var sH=2*screen.height/3;var sW=2*screen.width/3; var pL=(screen.width/2)-(sW/2); var pH=(screen.height/2)-(sH/2); var p='left='+pL+', top='+pH+', height='+sH+', width='+sW+' toolbar=no, location=no, directories=no, menubar=no, scrollbars=no, resizable=no, status=no';
-                                    window.open('/map_p.php?id=1726873&amp;lat=49.78503869340744&amp;lng=24.070073604507343&amp;circle=1','',p)">карта</a></span> </h3> </td> 
+                                    window.open('/map_p.php?id=1726873&amp;lat=49.78482395130329&amp;lng=24.070333778781787&amp;circle=1','',p)">карта</a></span> </h3> </td> 
                 </tr> 
                 <tr style="cursor:pointer" id="tr_det_21726873" class=""> 
                  <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">3</span><br> </span> <span class="stin"> панель</span> </td> 
@@ -3948,15 +3842,15 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">962 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">918 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
-                     <b style="font-family:tahoma;">37 000 $</b>
+                     <b style="font-family:tahoma;">36 000 $</b>
                     </nobr>
                     <br> 
                     <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">514 $</span>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">500 $</span>
                     </nobr> 
                    </div> 
                    <div class="left ogo-hided"> 
@@ -3969,7 +3863,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">962 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">918 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4024,7 +3918,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">962 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">943 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -4045,7 +3939,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">962 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">943 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4100,7 +3994,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 014 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">994 500 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -4121,7 +4015,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 014 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">994 500&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4176,7 +4070,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">520 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">510 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -4197,7 +4091,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">520 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">510 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4251,7 +4145,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">1 092 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">1 071 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -4272,7 +4166,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">1 092 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">1 071 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4326,15 +4220,15 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">2 700 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">2 400 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
-                     <b style="font-family:tahoma;">103 846 $</b>
+                     <b style="font-family:tahoma;">94 118 $</b>
                     </nobr>
                     <br> 
                     <nobr>
-                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">1 222 $</span>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">1 107 $</span>
                     </nobr> 
                    </div> 
                    <div class="left ogo-hided"> 
@@ -4347,7 +4241,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">2 700 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">2 400 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4402,7 +4296,7 @@ padding-top: 7px;
                   <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
                    <div class="right" style="float:right; text-align:right;"> 
                     <nobr>
-                     <span style="font-family:tahoma;">2 080 000 &#x20b4;</span>
+                     <span style="font-family:tahoma;">2 040 000 &#x20b4;</span>
                     </nobr>
                     <br> 
                     <nobr>
@@ -4423,7 +4317,7 @@ padding-top: 7px;
                    <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
                     <nobr> 
                      <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
-                     <span style="font-family:tahoma;">2 080 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                     <span style="font-family:tahoma;">2 040 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
                     </nobr> 
                    </div> 
                   </div> </td> 
@@ -4436,6 +4330,81 @@ padding-top: 7px;
 </td--> 
                 </tr>  
                 <tr id="tr_det_51572641" style="" class=""> 
+                 <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
+                </tr> 
+                <tr class="border_bo "> 
+                 <td colspan="5" style="height: 13px;  "><span style="line-height:0px;">&nbsp;</span></td> 
+                </tr> 
+               </tbody>
+              </table></td>
+            </tr> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <!-- /////////////////////////////////////////////////////////////// --> 
+            <tr style="width:100%;">
+             <td colspan="5">
+              <div class="rieltor-hide"> 
+              </div>
+              <table class="ogo-buf"> 
+               <tbody>
+                <tr class="r_top_r " style="height: 13px;"> 
+                 <td colspan="3">
+                  <div class="papa_el"></div></td> 
+                 <td></td> 
+                 <td></td> 
+                </tr> 
+                <tr style="" id="tr_det_11664077" class=""> 
+                 <td rowspan="3" style="padding-right:10px;" class="left_border_table top_border_table" valign="top">
+                  <!-- <div class="shad_right"> --> 
+                  <!--        <div class="shad_bot"> --> 
+                  <!--               <div class="shad_kut_ri_bo">  --> <a href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1664077/" target="_blank" class="img-thick img-cursor ogo-img" title=""> <span class="photocount photocount-fix">&nbsp;5</span> <img src="../shop/img_free/preview_148577193452940.jpg" style="border:none" alt="" rel="gallery-plant1664077"> </a>
+                  <!-- </div> --> 
+                  <!--     </div> --> 
+                  <!--      </div> --></td> 
+                 <td colspan="4" class="top_border_table right_border_table" valign="top" height="12"> <h3 class="ner_h3"><a href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1664077/" target="_blank">Продам 1-кімнатну квартиру на в. Антоновича (Львів)</a> </h3> </td> 
+                </tr> 
+                <tr style="cursor:pointer" id="tr_det_21664077" class=""> 
+                 <td valign="top" class="color-block" style="width: auto;"> <span class="kim"> кімнат: <span style="font-weight:bold">1</span><br> </span> <span class="stin"> цегла</span> </td> 
+                 <td style="width:74px; text-align:right; padding-left: 3px; padding-right: 3px; color: #616161;" valign="middle"> <br> <span class="ogo-hided" style="color: #898989;">пов:</span> 2/3 </td> 
+                 <td style="padding-left:0px;width:140px; text-align:right; padding-right:3px; padding-left: 3px; color: #616161;" valign="middle"> <br> <span style="margin-top: -5px; display: inline-block; color: #898989;" class="ogo-hided">м<sup>2</sup>:</span> 25/15/6 </td> 
+                 <td style="text-align:left; padding-left:5px;" valign="top" class="right_border_table"> 
+                  <div class="price_ner" style="display:block; width: 125px; float: right; line-height: 16px;"> 
+                   <div class="right" style="float:right; text-align:right;"> 
+                    <nobr>
+                     <span style="font-family:tahoma;">969 000 &#x20b4;</span>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <b style="font-family:tahoma;">38 000 $</b>
+                    </nobr>
+                    <br> 
+                    <nobr>
+                     <span style="color:#c3c3c3; font-weight: bold; font-family:tahoma;">1 520 $</span>
+                    </nobr> 
+                   </div> 
+                   <div class="left ogo-hided"> 
+                    <span style="color: #898989;">ціна:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">екв:&nbsp;</span>
+                    <br> 
+                    <span style="color: #898989;">за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em; color:#c3c3c3;">2</sup>:&nbsp;</span> 
+                   </div> 
+                   <div style="display:block; visibility:hidden; height:1px; line-height:1px; clear:both;"> 
+                    <nobr> 
+                     <span>за&nbsp;м<sup style="font-size:7px; vertical-align:top; position:relative; top:-0.5em;">2</sup>:&nbsp;</span> 
+                     <span style="font-family:tahoma;">969 000&nbsp;<img src="/img/new/uah_r_51.png"></span> 
+                    </nobr> 
+                   </div> 
+                  </div> </td> 
+                </tr> 
+                <tr style="" id="tr_det_31664077" class=""> 
+                 <td colspan="4" valign="bottom" class="rowspan-fix tel-block right_border_table" style="vertical-align:bottom;"> <span><span class="ner-auto-tel show_t tels_block1_nomer_1664077"><span idx="1" nidx="nomer" itdx="1664077">(068) <span class="tell-show-span">показати</span></span></span> <a class="go-to-pp" href="/nerukhomist/kvartyry/frankivskyy-rayon/personal_page/nomer/1664077/" target="_blank">деталі</a> <a class="star ogo-star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1664077" name="id[]">в блокнот</a> </span></td> 
+                 <!--td class="right_border_table det-block" colspan="2" rowspan="2" valign="bottom">
+<span class="detail_but" id="det_but_1664077"></span>
+<a class="star " title="додати в блокнот" onclick="NotepadPost(this)" id="nomer_1664077" name="id[]"></a>
+</td--> 
+                </tr>  
+                <tr id="tr_det_51664077" style="" class=""> 
                  <td colspan="5" height="4" class="bottom_border_table left_border_table right_border_table" style="padding-bottom:0px; height: 12px;"><span style="line-height:4px;">&nbsp;</span></td> 
                 </tr> 
                 <tr class="border_bo "> 
@@ -4479,7 +4448,7 @@ padding-top: 7px;
                 ...
                </div> 
                <div class="page">
-                <a href="/nerukhomist/kvartyry/?item_price1=&amp;item_price2=&amp;page=138">138</a>
+                <a href="/nerukhomist/kvartyry/?item_price1=&amp;item_price2=&amp;page=128">128</a>
                </div> 
                <div class="page">
                 <a href="/nerukhomist/kvartyry/?item_price1=&amp;item_price2=&amp;page=2" title="Наступна сторінка">»</a>
@@ -4729,6 +4698,18 @@ s.async=1;s.src='/skin/ua/js/trackHTML5inGA.min.js';
 x.parentNode.insertBefore(s,x);
 })(document, 'script');
 </script> 
+           <script type="text/javascript" src="/skin/ua/js/blockadblock_n.js"></script> 
+           <script>
+adblockDetect(function(adblockDetected) {
+if (adblockDetected) {
+ga('send', 'event', 'adBlock', 'click', 'detected');
+console.log('adBlockDetected');
+} else{
+ga('send', 'event', 'adBlock', 'click', 'notDetected');
+console.log('adBlockNotDetected');
+}
+});
+</script> 
           </div>
           <p class="punctir_footer_text">&nbsp;</p> 
           <div id="banner_bot" style="display:block; text-align:center; margin-bottom:20px;">
@@ -4828,6 +4809,6 @@ catch(e) { }
     </div> 
    </div> 
   </div>   
-  <!-- Exec time ~ 0.250123 sec. (init-1.5M/peak-26M/shutdown-25.000M), peak usage (shutdown/init): 1733% -->
+  <!-- Exec time ~ 0.278831 sec. (init-1.5M/peak-25.75M/shutdown-24.750M), peak usage (shutdown/init): 1717% -->
  </body>
 </html>

@@ -12,17 +12,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Parser {
-	static List<String> finalInformationList;
+	//static List<String> finalInformationList;
 
-	public static void Parse(Document a) throws IOException {
+	public static List<String> Parse(Document a) throws IOException {
 		Document parsingDocument = a;
 
 		// data slots
-		ArrayList<Title> apartmentList = new ArrayList<>();
-		ArrayList<Rooms> roomsList = new ArrayList<>();
-		ArrayList<Price> priceList = new ArrayList<>();
-		ArrayList<Floor> floorList = new ArrayList<>();
-		ArrayList<Area> areaList = new ArrayList<>();
+		ArrayList<Title> apartmens = new ArrayList<>();
+		ArrayList<Rooms> rooms = new ArrayList<>();
+		ArrayList<Price> prices = new ArrayList<>();
+		ArrayList<Floor> floors = new ArrayList<>();
+		ArrayList<Area> areas = new ArrayList<>();
 
 		// connect to different HTML part
 		Elements linkAndTitleElements = parsingDocument.getElementsByAttributeValue("class", "ner_h3");
@@ -35,13 +35,13 @@ public class Parser {
 
 		// CLASS APARTMENT
 		linkAndTitleElements.forEach(linkAndTitleElement -> {
-			Element linkAndTitleElement1 = linkAndTitleElement.child(0);
+			Element linkAndTitle = linkAndTitleElement.child(0);
 			// link
-			String link = linkAndTitleElement1.attr("href");
+			String link = linkAndTitle.attr("href");
 			// title
-			String title = linkAndTitleElement1.text();
+			String title = linkAndTitle.text();
 
-			apartmentList.add(new Title(link, title));
+			apartmens.add(new Title(link, title));
 
 		});
 
@@ -49,18 +49,18 @@ public class Parser {
 		roomsElements.forEach(roomsElement -> {
 			Element roomElement = roomsElement.child(0);
 			// rooms
-			String rooms = roomElement.text();
+			String roomsText = roomElement.text();
 
-			roomsList.add(new Rooms(rooms));
+			rooms.add(new Rooms(roomsText));
 		});
 
 		// CLASS PRICE
 		priceElements.forEach(priceElement -> {
-			Element priceElement1 = priceElement.child(2);
+			Element pricesElement = priceElement.child(2);
 			// PRICE IN $
-			String price = priceElement1.text();
+			String price = pricesElement.text();
 
-			priceList.add(new Price(price));
+			prices.add(new Price(price));
 		});
 
 		// CLASS FLOOR
@@ -68,7 +68,7 @@ public class Parser {
 			// floor
 			String floor = floorElement.text();
 
-			floorList.add(new Floor(floor));
+			floors.add(new Floor(floor));
 		});
 
 		// CLASS AREA
@@ -77,19 +77,19 @@ public class Parser {
 			// area
 			String area = areaElement.text();
 
-			areaList.add(new Area(area));
+			areas.add(new Area(area));
 		});
 
 		Map<Object, Object> linkTitleRooms = new LinkedHashMap<Object, Object>();
 		// fill map "link+title" + "rooms"
-		for (int i = 0; i < roomsList.size(); i++) {
-			linkTitleRooms.put(apartmentList.get(i), roomsList.get(i));
+		for (int i = 0; i < rooms.size(); i++) {
+			linkTitleRooms.put(apartmens.get(i), rooms.get(i));
 		}
 
 		Map<Object, Object> priceFloor = new LinkedHashMap<Object, Object>();
 		// fill map "price" + "floor"
-		for (int i = 0; i < roomsList.size(); i++) {
-			priceFloor.put(priceList.get(i), floorList.get(i));
+		for (int i = 0; i < rooms.size(); i++) {
+			priceFloor.put(prices.get(i), floors.get(i));
 		}
 
 		// linkTitleRooms to list
@@ -99,8 +99,8 @@ public class Parser {
 
 		Map<Object, Object> priceFloorArea = new LinkedHashMap<Object, Object>();
 		// fill map "priceFloorList" + "areaList"
-		for (int i = 0; i < roomsList.size(); i++) {
-			priceFloorArea.put(priceFloorList.get(i), areaList.get(i));
+		for (int i = 0; i < rooms.size(); i++) {
+			priceFloorArea.put(priceFloorList.get(i), areas.get(i));
 		}
 
 		// priceFloorArea to list
@@ -108,7 +108,7 @@ public class Parser {
 
 		Map<Object, Object> allInformation = new LinkedHashMap<Object, Object>();
 		// fill map "linkTitleRoomsList" + "priceFloorAreaList"
-		for (int i = 0; i < roomsList.size(); i++) {
+		for (int i = 0; i < rooms.size(); i++) {
 			allInformation.put(linkTitleRoomsList.get(i), priceFloorAreaList.get(i));
 		}
 
@@ -117,7 +117,7 @@ public class Parser {
 
 		// replacing "=" from allInformationList
 		String finalInformation = allInformationList.toString().replaceAll("=", "");
-		finalInformationList = Arrays.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
+		List<String> finalInformationList = Arrays.asList(finalInformation.substring(1, finalInformation.length() - 1).split(", "));
 
 		// testing for missing elements
 		List<String> matchesNull = finalInformationList.stream().filter(it -> it.contains("null"))
@@ -132,6 +132,7 @@ public class Parser {
 
 			}
 		}
-
+			
+return finalInformationList;
 	}
 }

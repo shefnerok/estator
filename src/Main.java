@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-
+import java.util.Arrays;
 import java.util.List;
 
 import java.util.Properties;
@@ -49,31 +49,32 @@ public class Main {
 
 		Object lastPage = pages.get(3);
 		int lastPageNumber = Integer.valueOf((String) lastPage);
-		// parsing website
-		for (int page = 1; page <= lastPageNumber; page++) {
-			Parser.Parse(Jsoup.connect(properties.getProperty("website")).get());
-		}
-		// outputting website
-		for (int i = 0; i < Parser.finalInformationList.size(); i++) {
-			System.out.println(i + 1 + ". " + Parser.finalInformationList.get(i));
+		// parsing and outputting website
 
+		for (int page = 1; page <= lastPageNumber; page++) {
+			List<String> result = Parser.Parse(Jsoup.connect(properties.getProperty("pagesParsingLink") + page).get());
+			System.out.println("Page " + page);
+			for (int i = 0; i < result.size(); i++) {
+				System.out.println(i + 1 + ". " + result.get(i));
+			}
 		}
 
 		// testing for existence of specific ID
-		File input = new File("Cache/TestCache.txt");
+		File input = new File(properties.getProperty("TestFile"));
 		if (input.exists() && !input.isDirectory()) {
-			Parser.Parse(Jsoup.parse(input, "windows-1251"));
-			List<String> matchesId = Parser.finalInformationList.stream()
-					.filter(it -> it.contains(properties.getProperty("id"))).collect(Collectors.toList());
+
+			List<String> result = Parser.Parse(Jsoup.parse(input, "windows-1251"));
+			List<String> matchesId = result.stream().filter(it -> it.contains(properties.getProperty("id")))
+					.collect(Collectors.toList());
 			if (matchesId.isEmpty()) {
 				System.out.println("No elements with this ID");
 			}
 
 		} else {
 			TestCaching.cacheSource();
-			Parser.Parse(Jsoup.parse(input, "windows-1251"));
-			List<String> matchesId = Parser.finalInformationList.stream()
-					.filter(it -> it.contains(properties.getProperty("id"))).collect(Collectors.toList());
+			List<String> result = Parser.Parse(Jsoup.parse(input, "windows-1251"));
+			List<String> matchesId = result.stream().filter(it -> it.contains(properties.getProperty("id")))
+					.collect(Collectors.toList());
 			if (matchesId.isEmpty()) {
 				System.out.println("No elements with this ID");
 			}

@@ -34,16 +34,13 @@ public class TestCaching {
 		File theDir = new File("Cache");
 		if (!theDir.exists()) {
 
-			try {
-				theDir.mkdir();
-			} catch (SecurityException se) {
-			}
+			theDir.mkdir();
 		}
 		// saving HTML code to file
 
 		String page = properties.getProperty("testPage"); // which page to test
 		String htmlCode = Jsoup.connect(properties.getProperty("pagesParsingLink") + page).get().outerHtml();
-		File cacheFile = new File("Cache/TestCache.txt");
+		File cacheFile = new File(properties.getProperty("TestFile"));
 		// switch "fasle" to "true" if you don't want to overwrite file
 		FileWriter fileWriter = new FileWriter(cacheFile, false);
 		fileWriter.write(htmlCode);
