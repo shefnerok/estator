@@ -54,17 +54,12 @@ public class Cache {
 					.get().outerHtml();
 			//creating Cache directory
 			File theDir = new File("Cache");
-			if (!theDir.exists()) {
-			    			  
-			    try{
-			        theDir.mkdir();		       
-			    } 
-			    catch(SecurityException se){			      
-			    }        			    
+			if (!theDir.exists()) {			    			  
+			    theDir.mkdir();        			    
 			}
-			
-			
+			//saving file
 			File cacheFile = new File("Cache/cache.txt");
+			// switch "false" to "true" if you don't want to overwrite file
 			FileWriter fileWriter = new FileWriter(cacheFile, true);
 			fileWriter.write(htmlCode);
 			fileWriter.close();
