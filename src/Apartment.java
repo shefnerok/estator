@@ -1,5 +1,6 @@
 
 public class Apartment {
+
 private String title;
 private String url;
 private String rooms;
@@ -14,6 +15,7 @@ public Apartment(String title, String url, String rooms, String floor, String ar
 	this.floor = floor;
 	this.area = area;
 	this.price = price;
+
 }
 public String getTitle() {
 	return title;
@@ -39,22 +41,26 @@ public String getFloor() {
 public void setFloor(String floor) {
 	this.floor = floor;
 }
+
 public String getArea() {
 	return area;
+
 }
 public void setArea(String area) {
 	this.area = area;
 }
+
 public String getPrice() {
 	return price;
 }
 public void setPrice(String price) {
 	this.price = price;
+
 }
 @Override
 public String toString() {
-	return "Назва: " + title + ", Посилання: " + url + ", К-сть. кімнат: " + rooms + ", поверх: " + floor + ", площа: " + area
-			+ ", ціна: " + price;
+	return "ГЌГ Г§ГўГ : " + title + ", ГЏГ®Г±ГЁГ«Г Г­Г­Гї: " + url + ", ГЉ-Г±ГІГј. ГЄВіГ¬Г­Г ГІ: " + rooms + ", ГЇГ®ГўГҐГ°Гµ: " + floor + ", ГЇГ«Г®Г№Г : " + area
+			+ ", Г¶ВіГ­Г : " + price;
 }
 
 }

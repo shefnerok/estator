@@ -16,6 +16,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Main {
+
 	public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 		//
 		// parsing file and loading into DB
@@ -25,6 +26,7 @@ public class Main {
 		} else {
 			Cache.start();
 			Postgres.insert();
+
 
 		}
 		IdTesting.test();
